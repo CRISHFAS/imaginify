@@ -1,52 +1,19 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/Ahwoks_dawU?feature=shared" target="_blank">
-      <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/daf9e91b-6342-4e9a-9361-8dc2bd01ce64" alt="Project Banner">
-    </a>
-  <br />
+<h3 align="center">Una plataforma SaaS de IA</h3>
 
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
-    <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="mongodb" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
+## 📋 <a name="table">Tabla de contenido</a>
 
-  <h3 align="center">An AI SaaS Platform</h3>
+1. 🤖 [Introducción](#introducción)
+2. ⚙️ [Pila Tecnológica](#pila-tecnológica)
+3. 🔋 [Características](#características)
+4. 🤸 [Inicio Rápido](#inicio-rápido)
+5. 🕸️ [Fragmentos](#fragmentos)
+6. 🔗 [Enlaces](#enlaces)
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+## <a name="introducción">🤖 Introducción</a>
 
-## 📋 <a name="table">Table of Contents</a>
+Crea una plataforma SaaS impulsada por IA especializada en procesamiento avanzado de imágenes. Integra un sistema de pagos seguro, funcionalidades sólidas de búsqueda de imágenes y una amplia gama de herramientas basadas en inteligencia artificial, como restauración de imágenes, recoloreo, eliminación de objetos, relleno generativo y eliminación de fondos. Este proyecto puede servir tanto como una guía práctica para desarrollar tu próxima herramienta de imágenes con IA, como una valiosa incorporación a tu portafolio profesional. 
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
-
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/Ahwoks_dawU?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
-## <a name="introduction">🤖 Introduction</a>
-
-Build an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal. This project can be a guide for your next AI image tool and a boost to your portfolio. 
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="pila-tecnológica">⚙️ Pila Tecnológica</a>
 
 - Next.js
 - TypeScript
@@ -57,71 +24,86 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Shadcn
 - TailwindCSS
 
-## <a name="features">🔋 Features</a>
+## <a name="características">🔋 Características</a>
 
-👉 **Authentication and Authorization**: Secure user access with registration, login, and route protection.
+👉 **Autenticación y Autorización**  
+Asegura el acceso de los usuarios mediante registro, inicio de sesión y protección de rutas.
 
-👉 **Community Image Showcase**: Explore user transformations with easy navigation using pagination
+👉 **Galería de Imágenes de la Comunidad**  
+Explora transformaciones hechas por otros usuarios con una navegación sencilla y paginación.
 
-👉 **Advanced Image Search**: Find images by content or objects present inside the image quickly and accurately
+👉 **Búsqueda Avanzada de Imágenes**  
+Encuentra imágenes rápidamente por contenido u objetos presentes en ellas.
 
-👉 **Image Restoration**: Revive old or damaged images effortlessly
+👉 **Restauración de Imágenes**  
+Recupera imágenes antiguas o dañadas sin esfuerzo.
 
-👉 **Image Recoloring**: Customize images by replacing objects with desired colors easily
+👉 **Recoloreo de Imágenes**  
+Personaliza imágenes cambiando los colores de los objetos fácilmente.
 
-👉 **Image Generative Fill**: Fill in missing areas of images seamlessly
+👉 **Relleno Generativo**  
+Rellena áreas faltantes en las imágenes de forma natural.
 
-👉 **Object Removal**: Clean up images by removing unwanted objects with precision
+👉 **Eliminación de Objetos**  
+Limpia imágenes eliminando objetos no deseados con precisión.
 
-👉 **Background Removal**: Extract objects from backgrounds with ease
+👉 **Eliminación de Fondos**  
+Extrae objetos del fondo de manera rápida y sencilla.
 
-👉 **Download Transformed Images**: Save and share AI-transformed images conveniently
+👉 **Descarga de Imágenes Transformadas**  
+Guarda y comparte imágenes modificadas por IA con comodidad.
 
-👉 **Transformed Image Details**: View details of transformations for each image
+👉 **Detalles de Transformaciones**  
+Consulta información detallada sobre cada imagen transformada.
 
-👉 **Transformation Management**: Control over deletion and updates of transformations
+👉 **Gestión de Transformaciones**  
+Control total para eliminar o actualizar transformaciones.
 
-👉 **Credits System**: Earn or purchase credits for image transformations
+👉 **Sistema de Créditos**  
+Gana o compra créditos para realizar transformaciones de imágenes.
 
-👉 **Profile Page**: Access transformed images and credit information personally
+👉 **Página de Perfil**  
+Accede a tus imágenes transformadas y consulta tu saldo de créditos.
 
-👉 **Credits Purchase**: Securely buy credits via Stripe for uninterrupted use
+👉 **Compra de Créditos**  
+Compra créditos de forma segura a través de Stripe para uso continuo.
 
-👉 **Responsive UI/UX**: A seamless experience across devices with a user-friendly interface
+👉 **UI/UX Responsiva**  
+Interfaz intuitiva y adaptable para una experiencia fluida en todos los dispositivos.
+
+💡 *Y mucho más, incluyendo arquitectura del código y reutilización eficiente de componentes.*
 
 
-and many more, including code architecture and reusability 
+## <a name="inicio rápido">🤸 Inicio Rápido</a>
 
-## <a name="quick-start">🤸 Quick Start</a>
+Sigue estos pasos para poner en marcha el proyecto en tu entorno local.
 
-Follow these steps to set up the project locally on your machine.
+### ✅ Prerrequisitos
 
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
+Asegúrate de tener instalados los siguientes elementos en tu máquina:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+**Clonar el Repositorio**
 
 ```bash
-git clone https://github.com/adrianhajdin/imaginify.git
+git clone git@github.com:CRISHFAS/imaginify.git
 cd imaginify
 ```
 
-**Installation**
+**Instalación**
 
-Install the project dependencies using npm:
+Instala las dependencias del proyecto utilizando `npm`:
 
 ```bash
 npm run dev
 ```
 
-**Set Up Environment Variables**
+⚙️ **Configuración de Variables de Entorno**
 
-Create a new file named `.env.local` in the root of your project and add the following content:
+Crea un nuevo archivo llamado `.env.local` en la raíz del proyecto y agrega el siguiente contenido:
 
 ```env
 #NEXT
@@ -151,17 +133,18 @@ STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 ```
 
-Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/), [Cloudinary](https://cloudinary.com/) and [Stripe](https://stripe.com)
+Reemplaza los valores de ejemplo con tus credenciales reales correspondientes. Puedes obtener estas credenciales creando una cuenta en los siguientes servicios:
+ [Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/), [Cloudinary](https://cloudinary.com/) y [Stripe](https://stripe.com)
 
-**Running the Project**
+🚀 **Ejecutar el Proyecto**
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Abra [http://localhost:3000](http://localhost:3000) para ver el proyecto en ejecución.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="fragmentos">🕸️ Fragmentos</a>
 
 <details>
 <summary><code>tailwind.config.ts</code></summary>
@@ -361,9 +344,7 @@ module.exports = {
   @apply mt-16 flex-1 overflow-auto py-8 lg:mt-0 lg:max-h-screen lg:py-10
 }
 
-/* ========================================== TAILWIND STYLES */
 @layer utilities {
-  /* ===== UTILITIES */
   .wrapper {
     @apply max-w-5xl mx-auto px-5 md:px-10 w-full text-dark-400 p-16-regular;
   }
@@ -372,7 +353,6 @@ module.exports = {
     @apply bg-purple-gradient bg-cover bg-clip-text text-transparent;
   }
 
-  /* ===== ALIGNMENTS */
   .flex-center {
     @apply flex justify-center items-center;
   }
@@ -381,28 +361,22 @@ module.exports = {
     @apply flex justify-between items-center;
   }
 
-  /* ===== TYPOGRAPHY */
-  /* 44 */
   .h1-semibold {
     @apply text-[36px] font-semibold sm:text-[44px] leading-[120%] sm:leading-[56px];
   }
 
-  /* 36 */
   .h2-bold {
     @apply text-[30px] font-bold md:text-[36px] leading-[110%];
   }
 
-  /* 30 */
   .h3-bold {
     @apply font-bold text-[30px] leading-[140%];
   }
 
-  /* 24 */
   .p-24-bold {
     @apply font-bold text-[24px] leading-[120%];
   }
 
-  /* 20 */
   .p-20-semibold {
     @apply font-semibold text-[20px] leading-[140%];
   }
@@ -411,12 +385,10 @@ module.exports = {
     @apply font-normal text-[20px] leading-[140%];
   }
 
-  /* 18 */
   .p-18-semibold {
     @apply font-semibold text-[18px] leading-[140%];
   }
 
-  /* 16 */
   .p-16-semibold {
     @apply font-semibold text-[16px] leading-[140%];
   }
@@ -429,17 +401,14 @@ module.exports = {
     @apply font-normal text-[16px] leading-[140%];
   }
 
-  /* 14 */
   .p-14-medium {
     @apply font-medium text-[14px] leading-[120%];
   }
 
-  /* 10 */
   .p-10-medium {
     @apply font-medium text-[10px] leading-[140%];
   }
 
-  /* =====  SHADCN OVERRIDES */
   .button {
     @apply py-4 px-6 flex-center gap-3 rounded-full p-16-semibold focus-visible:ring-offset-0 focus-visible:ring-transparent !important;
   }
@@ -492,7 +461,6 @@ module.exports = {
     @apply bg-red-100 text-red-900;
   }
 
-  /* Home Page */
   .home {
     @apply sm:flex-center hidden h-72 flex-col gap-4 rounded-[20px] border bg-banner bg-cover bg-no-repeat p-10 shadow-inner;
   }
@@ -501,7 +469,6 @@ module.exports = {
     @apply h1-semibold max-w-[500px] flex-wrap text-center text-white shadow-sm;
   }
 
-  /* Credits Page */
   .credits-list {
     @apply mt-11 grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-9 xl:grid-cols-3;
   }
@@ -514,7 +481,6 @@ module.exports = {
     @apply w-full rounded-full bg-purple-100 bg-cover text-purple-500 hover:text-purple-500;
   }
 
-  /* Profile Page */
   .profile {
     @apply mt-5 flex flex-col gap-5 sm:flex-row md:mt-8 md:gap-10;
   }
@@ -527,7 +493,6 @@ module.exports = {
     @apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-5 shadow-lg shadow-purple-200/10 md:px-6 md:py-8;
   }
 
-  /* Transformation Details */
   .transformation-grid {
     @apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-8 md:grid-cols-2;
   }
@@ -536,7 +501,6 @@ module.exports = {
     @apply h-fit min-h-72 w-full rounded-[10px] border border-dashed bg-purple-100/20 object-cover p-2;
   }
 
-  /* Collection Component */
   .collection-heading {
     @apply md:flex-between mb-6 flex flex-col gap-5 md:flex-row;
   }
@@ -557,7 +521,6 @@ module.exports = {
     @apply flex flex-1 cursor-pointer flex-col gap-5 rounded-[16px] border-2 border-purple-200/15 bg-white p-4 shadow-xl shadow-purple-200/10 transition-all hover:shadow-purple-200/20;
   }
 
-  /* MediaUploader Component */
   .media-uploader_cldImage {
     @apply h-fit min-h-72 w-full rounded-[10px] border border-dashed bg-purple-100/20 object-cover p-2;
   }
@@ -570,7 +533,6 @@ module.exports = {
     @apply rounded-[16px] bg-white  p-5 shadow-sm shadow-purple-200/50;
   }
 
-  /* Navbar Component */
   .header {
     @apply flex-between fixed h-16 w-full border-b-4 border-purple-100 bg-white p-5 lg:hidden;
   }
@@ -579,12 +541,10 @@ module.exports = {
     @apply mt-8 flex w-full flex-col items-start gap-5;
   }
 
-  /* Search Component */
   .search {
     @apply flex w-full rounded-[16px] border-2 border-purple-200/20 bg-white px-4 shadow-sm shadow-purple-200/15 md:max-w-96;
   }
 
-  /* Sidebar Component */
   .sidebar {
     @apply hidden h-screen w-72 bg-white p-5 shadow-md shadow-purple-200/50 lg:flex;
   }
@@ -609,7 +569,6 @@ module.exports = {
     @apply p-16-semibold flex size-full gap-4 p-4;
   }
 
-  /* TransformationForm Component */
   .prompt-field {
     @apply flex flex-col gap-5 lg:flex-row lg:gap-10;
   }
@@ -618,7 +577,6 @@ module.exports = {
     @apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-4 md:grid-cols-2;
   }
 
-  /* TransformedImage Component */
   .download-btn {
     @apply p-14-medium mt-2 flex items-center gap-2 px-2;
   }
@@ -636,7 +594,6 @@ module.exports = {
   }
 }
 
-/* =====  CLERK OVERRIDES */
 .cl-userButtonBox {
   display: flex;
   flex-flow: row-reverse;
@@ -663,37 +620,37 @@ export const navLinks = [
     icon: "/assets/icons/home.svg",
   },
   {
-    label: "Image Restore",
+    label: "Restaurar imagen",
     route: "/transformations/add/restore",
     icon: "/assets/icons/image.svg",
   },
   {
-    label: "Generative Fill",
+    label: "Relleno generativo",
     route: "/transformations/add/fill",
     icon: "/assets/icons/stars.svg",
   },
   {
-    label: "Object Remove",
+    label: "Eliminar objeto",
     route: "/transformations/add/remove",
     icon: "/assets/icons/scan.svg",
   },
   {
-    label: "Object Recolor",
+    label: "Cambiar color de objeto",
     route: "/transformations/add/recolor",
     icon: "/assets/icons/filter.svg",
   },
   {
-    label: "Background Remove",
+    label: "Eliminar fondo",
     route: "/transformations/add/removeBackground",
     icon: "/assets/icons/camera.svg",
   },
   {
-    label: "Profile",
+    label: "Perfil",
     route: "/profile",
     icon: "/assets/icons/profile.svg",
   },
   {
-    label: "Buy Credits",
+    label: "Comprar créditos",
     route: "/credits",
     icon: "/assets/icons/bag.svg",
   },
@@ -702,75 +659,75 @@ export const navLinks = [
 export const plans = [
   {
     _id: 1,
-    name: "Free",
+    name: "Gratis",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
     credits: 20,
     inclusions: [
       {
-        label: "20 Free Credits",
+        label: "20 créditos gratis",
         isIncluded: true,
       },
       {
-        label: "Basic Access to Services",
+        label: "Acceso Básico a Servicios",
         isIncluded: true,
       },
       {
-        label: "Priority Customer Support",
+        label: "Atención al cliente prioritaria",
         isIncluded: false,
       },
       {
-        label: "Priority Updates",
+        label: "Actualizaciones prioritarias",
         isIncluded: false,
       },
     ],
   },
   {
     _id: 2,
-    name: "Pro Package",
+    name: "Paquete profesional",
     icon: "/assets/icons/free-plan.svg",
     price: 40,
     credits: 120,
     inclusions: [
       {
-        label: "120 Credits",
+        label: "120 Créditos",
         isIncluded: true,
       },
       {
-        label: "Full Access to Services",
+        label: "Acceso completo a los servicios",
         isIncluded: true,
       },
       {
-        label: "Priority Customer Support",
+        label: "Atención al cliente prioritaria",
         isIncluded: true,
       },
       {
-        label: "Priority Updates",
+        label: "Actualizaciones prioritarias",
         isIncluded: false,
       },
     ],
   },
   {
     _id: 3,
-    name: "Premium Package",
+    name: "Paquete prémium",
     icon: "/assets/icons/free-plan.svg",
     price: 199,
     credits: 2000,
     inclusions: [
       {
-        label: "2000 Credits",
+        label: "2000 Créditos",
         isIncluded: true,
       },
       {
-        label: "Full Access to Services",
+        label: "Acceso completo a los servicios",
         isIncluded: true,
       },
       {
-        label: "Priority Customer Support",
+        label: "Atención al cliente prioritaria",
         isIncluded: true,
       },
       {
-        label: "Priority Updates",
+        label: "Actualizaciones prioritarias",
         isIncluded: true,
       },
     ],
@@ -780,29 +737,29 @@ export const plans = [
 export const transformationTypes = {
   restore: {
     type: "restore",
-    title: "Restore Image",
-    subTitle: "Refine images by removing noise and imperfections",
+    title: "Restaurar imagen",
+    subTitle: "Refinar imágenes eliminando ruido e imperfecciones",
     config: { restore: true },
     icon: "image.svg",
   },
   removeBackground: {
     type: "removeBackground",
-    title: "Background Remove",
-    subTitle: "Removes the background of the image using AI",
+    title: "Eliminar fondo",
+    subTitle: "Elimina el fondo de la imagen usando IA",
     config: { removeBackground: true },
     icon: "camera.svg",
   },
   fill: {
     type: "fill",
     title: "Generative Fill",
-    subTitle: "Enhance an image's dimensions using AI outpainting",
+    subTitle: "Mejore las dimensiones de una imagen usando pintura con IA",
     config: { fillBackground: true },
     icon: "stars.svg",
   },
   remove: {
     type: "remove",
-    title: "Object Remove",
-    subTitle: "Identify and eliminate objects from images",
+    title: "Eliminar objeto",
+    subTitle: "Identificar y eliminar objetos de las imágenes.",
     config: {
       remove: { prompt: "", removeShadow: true, multiple: true },
     },
@@ -810,8 +767,8 @@ export const transformationTypes = {
   },
   recolor: {
     type: "recolor",
-    title: "Object Recolor",
-    subTitle: "Identify and recolor objects from the image",
+    title: "Cambiar color de objeto",
+    subTitle: "Identificar y cambiar el color de los objetos de la imagen.",
     config: {
       recolor: { prompt: "", to: "", multiple: true },
     },
@@ -822,19 +779,19 @@ export const transformationTypes = {
 export const aspectRatioOptions = {
   "1:1": {
     aspectRatio: "1:1",
-    label: "Square (1:1)",
+    label: "Cuadrado (1:1)",
     width: 1000,
     height: 1000,
   },
   "3:4": {
     aspectRatio: "3:4",
-    label: "Standard Portrait (3:4)",
+    label: "Retrato estándar (3:4)",
     width: 1000,
     height: 1334,
   },
   "9:16": {
     aspectRatio: "9:16",
-    label: "Phone Portrait (9:16)",
+    label: "Retrato de teléfono (9:16)",
     width: 1000,
     height: 1778,
   },
@@ -976,7 +933,7 @@ export const InsufficientCreditsModal = () => {
             >
               <Image
                 src="/assets/icons/close.svg"
-                alt="credit coins"
+                alt="monedas de credito"
                 width={24}
                 height={24}
                 className="cursor-pointer"
@@ -986,18 +943,17 @@ export const InsufficientCreditsModal = () => {
 
           <Image
             src="/assets/images/stacked-coins.png"
-            alt="credit coins"
+            alt="monedas de credito"
             width={462}
             height={122}
           />
 
           <AlertDialogTitle className="p-24-bold text-dark-600">
-            Oops.... Looks like you&#39;ve run out of free credits!
+            Ups... Parece que te has quedado sin créditos gratuitos!
           </AlertDialogTitle>
 
           <AlertDialogDescription className="p-16-regular py-3">
-            No worries, though - you can keep enjoying our services by grabbing
-            more credits.
+            Pero no te preocupes - puedes seguir disfrutando de nuestros servicios acumulando más créditos.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
@@ -1005,13 +961,13 @@ export const InsufficientCreditsModal = () => {
             className="button w-full bg-purple-100 text-dark-400"
             onClick={() => router.push("/profile")}
           >
-            No, Cancel
+            No, cancelar
           </AlertDialogCancel>
           <AlertDialogAction
             className="button w-full bg-purple-gradient  bg-cover"
             onClick={() => router.push("/credits")}
           >
-            Yes, Proceed
+            Sí, proceder
           </AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
@@ -1034,7 +990,6 @@ import User from "../database/models/user.model";
 import { connectToDatabase } from "../database/mongoose";
 import { handleError } from "../utils";
 
-// CREATE
 export async function createUser(user: CreateUserParams) {
   try {
     await connectToDatabase();
@@ -1047,14 +1002,13 @@ export async function createUser(user: CreateUserParams) {
   }
 }
 
-// READ
 export async function getUserById(userId: string) {
   try {
     await connectToDatabase();
 
     const user = await User.findOne({ clerkId: userId });
 
-    if (!user) throw new Error("User not found");
+    if (!user) throw new Error("Usuario no encontrado");
 
     return JSON.parse(JSON.stringify(user));
   } catch (error) {
@@ -1062,7 +1016,6 @@ export async function getUserById(userId: string) {
   }
 }
 
-// UPDATE
 export async function updateUser(clerkId: string, user: UpdateUserParams) {
   try {
     await connectToDatabase();
@@ -1071,7 +1024,7 @@ export async function updateUser(clerkId: string, user: UpdateUserParams) {
       new: true,
     });
 
-    if (!updatedUser) throw new Error("User update failed");
+    if (!updatedUser) throw new Error("La actualización del usuario falló");
     
     return JSON.parse(JSON.stringify(updatedUser));
   } catch (error) {
@@ -1079,19 +1032,16 @@ export async function updateUser(clerkId: string, user: UpdateUserParams) {
   }
 }
 
-// DELETE
 export async function deleteUser(clerkId: string) {
   try {
     await connectToDatabase();
 
-    // Find user to delete
     const userToDelete = await User.findOne({ clerkId });
 
     if (!userToDelete) {
-      throw new Error("User not found");
+      throw new Error("Usuario no encontrado");
     }
 
-    // Delete user
     const deletedUser = await User.findByIdAndDelete(userToDelete._id);
     revalidatePath("/");
 
@@ -1100,8 +1050,6 @@ export async function deleteUser(clerkId: string) {
     handleError(error);
   }
 }
-
-// USE CREDITS
 export async function updateCredits(userId: string, creditFee: number) {
   try {
     await connectToDatabase();
@@ -1112,7 +1060,7 @@ export async function updateCredits(userId: string, creditFee: number) {
       { new: true }
     )
 
-    if(!updatedUserCredits) throw new Error("User credits update failed");
+    if(!updatedUserCredits) throw new Error("Error en la actualización de créditos de usuario");
 
     return JSON.parse(JSON.stringify(updatedUserCredits));
   } catch (error) {
@@ -1127,8 +1075,6 @@ export async function updateCredits(userId: string, creditFee: number) {
 <summary><code>utils.ts</code></summary>
 
 ```typescript
-/* eslint-disable prefer-const */
-/* eslint-disable no-prototype-builtins */
 import { type ClassValue, clsx } from "clsx";
 import qs from "qs";
 import { twMerge } from "tailwind-merge";
@@ -1139,24 +1085,19 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-// ERROR HANDLER
 export const handleError = (error: unknown) => {
   if (error instanceof Error) {
-    // This is a native JavaScript error (e.g., TypeError, RangeError)
     console.error(error.message);
     throw new Error(`Error: ${error.message}`);
   } else if (typeof error === "string") {
-    // This is a string error message
     console.error(error);
     throw new Error(`Error: ${error}`);
   } else {
-    // This is an unknown type of error
     console.error(error);
     throw new Error(`Unknown error: ${JSON.stringify(error)}`);
   }
 };
 
-// PLACEHOLDER LOADER - while image is transforming
 const shimmer = (w: number, h: number) => `
 <svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
@@ -1179,9 +1120,7 @@ const toBase64 = (str: string) =>
 export const dataUrl = `data:image/svg+xml;base64,${toBase64(
   shimmer(1000, 1000)
 )}`;
-// ==== End
 
-// FORM URL QUERY
 export const formUrlQuery = ({
   searchParams,
   key,
@@ -1194,7 +1133,6 @@ export const formUrlQuery = ({
   })}`;
 };
 
-// REMOVE KEY FROM QUERY
 export function removeKeysFromQuery({
   searchParams,
   keysToRemove,
@@ -1205,7 +1143,6 @@ export function removeKeysFromQuery({
     delete currentUrl[key];
   });
 
-  // Remove null or undefined values
   Object.keys(currentUrl).forEach(
     (key) => currentUrl[key] == null && delete currentUrl[key]
   );
@@ -1213,7 +1150,6 @@ export function removeKeysFromQuery({
   return `${window.location.pathname}?${qs.stringify(currentUrl)}`;
 }
 
-// DEBOUNCE
 export const debounce = (func: (...args: any[]) => void, delay: number) => {
   let timeoutId: NodeJS.Timeout | null;
   return (...args: any[]) => {
@@ -1222,7 +1158,6 @@ export const debounce = (func: (...args: any[]) => void, delay: number) => {
   };
 };
 
-// GE IMAGE SIZE
 export type AspectRatioKey = keyof typeof aspectRatioOptions;
 export const getImageSize = (
   type: string,
@@ -1238,10 +1173,9 @@ export const getImageSize = (
   return image?.[dimension] || 1000;
 };
 
-// DOWNLOAD IMAGE
 export const download = (url: string, filename: string) => {
   if (!url) {
-    throw new Error("Resource URL not provided! You need to provide one");
+    throw new Error("No se proporcionó la URL del recurso. Debe proporcionar una.");
   }
 
   fetch(url)
@@ -1259,7 +1193,6 @@ export const download = (url: string, filename: string) => {
     .catch((error) => console.log({ error }));
 };
 
-// DEEP MERGE OBJECTS
 export const deepMergeObjects = (obj1: any, obj2: any) => {
   if(obj2 === null || obj2 === undefined) {
     return obj1;
@@ -1292,9 +1225,6 @@ export const deepMergeObjects = (obj1: any, obj2: any) => {
 <summary><code>types/index.d.ts</code></summary>
 
 ```typescript
-/* eslint-disable no-unused-vars */
-
-// ====== USER PARAMS
 declare type CreateUserParams = {
   clerkId: string;
   email: string;
@@ -1311,7 +1241,6 @@ declare type UpdateUserParams = {
   photo: string;
 };
 
-// ====== IMAGE PARAMS
 declare type AddImageParams = {
   image: {
     title: string;
@@ -1365,7 +1294,6 @@ declare type Transformations = {
   removeBackground?: boolean;
 };
 
-// ====== TRANSACTION PARAMS
 declare type CheckoutTransactionParams = {
   plan: string;
   credits: number;
@@ -1389,7 +1317,6 @@ declare type TransformationTypeKey =
   | "recolor"
   | "removeBackground";
 
-// ====== URL QUERY PARAMS
 declare type FormUrlQueryParams = {
   searchParams: string;
   key: string;
@@ -1438,7 +1365,6 @@ declare type TransformedImageProps = {
 <summary><code>api/webhooks/clerk/route.ts</code></summary>
 
 ```typescript
-/* eslint-disable camelcase */
 import { clerkClient } from "@clerk/nextjs";
 import { WebhookEvent } from "@clerk/nextjs/server";
 import { headers } from "next/headers";
@@ -1448,38 +1374,32 @@ import { Webhook } from "svix";
 import { createUser, deleteUser, updateUser } from "@/lib/actions/user.actions";
 
 export async function POST(req: Request) {
-  // You can find this in the Clerk Dashboard -> Webhooks -> choose the webhook
   const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET;
 
   if (!WEBHOOK_SECRET) {
     throw new Error(
-      "Please add WEBHOOK_SECRET from Clerk Dashboard to .env or .env.local"
+      "Agregue WEBHOOK_SECRET desde el panel de control del empleado a .env o .env.local"
     );
   }
 
-  // Get the headers
   const headerPayload = headers();
   const svix_id = headerPayload.get("svix-id");
   const svix_timestamp = headerPayload.get("svix-timestamp");
   const svix_signature = headerPayload.get("svix-signature");
 
-  // If there are no headers, error out
   if (!svix_id || !svix_timestamp || !svix_signature) {
-    return new Response("Error occured -- no svix headers", {
+    return new Response("Se produjo un error -- no hay encabezados svix", {
       status: 400,
     });
   }
 
-  // Get the body
   const payload = await req.json();
   const body = JSON.stringify(payload);
 
-  // Create a new Svix instance with your secret.
   const wh = new Webhook(WEBHOOK_SECRET);
 
   let evt: WebhookEvent;
 
-  // Verify the payload with the headers
   try {
     evt = wh.verify(body, {
       "svix-id": svix_id,
@@ -1487,17 +1407,15 @@ export async function POST(req: Request) {
       "svix-signature": svix_signature,
     }) as WebhookEvent;
   } catch (err) {
-    console.error("Error verifying webhook:", err);
+    console.error("Error al verificar el webhook:", err);
     return new Response("Error occured", {
       status: 400,
     });
   }
 
-  // Get the ID and type
   const { id } = evt.data;
   const eventType = evt.type;
 
-  // CREATE
   if (eventType === "user.created") {
     const { id, email_addresses, image_url, first_name, last_name, username } = evt.data;
 
@@ -1512,7 +1430,6 @@ export async function POST(req: Request) {
 
     const newUser = await createUser(user);
 
-    // Set public metadata
     if (newUser) {
       await clerkClient.users.updateUserMetadata(id, {
         publicMetadata: {
@@ -1524,7 +1441,6 @@ export async function POST(req: Request) {
     return NextResponse.json({ message: "OK", user: newUser });
   }
 
-  // UPDATE
   if (eventType === "user.updated") {
     const { id, image_url, first_name, last_name, username } = evt.data;
 
@@ -1540,7 +1456,6 @@ export async function POST(req: Request) {
     return NextResponse.json({ message: "OK", user: updatedUser });
   }
 
-  // DELETE
   if (eventType === "user.deleted") {
     const { id } = evt.data;
 
@@ -1549,7 +1464,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ message: "OK", user: deletedUser });
   }
 
-  console.log(`Webhook with and ID of ${id} and type of ${eventType}`);
+  console.log(`Webhook con un ID ${id} y tipo ${eventType}`);
   console.log("Webhook body:", body);
 
   return new Response("", { status: 200 });
@@ -1648,7 +1563,6 @@ export const Collection = ({
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  // PAGINATION HANDLER
   const onPageChange = (action: string) => {
     const pageValue = action === "next" ? Number(page) + 1 : Number(page) - 1;
 
@@ -1829,7 +1743,6 @@ const populateUser = (query: any) => query.populate({
   select: '_id firstName lastName clerkId'
 })
 
-// ADD IMAGE
 export async function addImage({ image, userId, path }: AddImageParams) {
   try {
     await connectToDatabase();
@@ -1837,7 +1750,7 @@ export async function addImage({ image, userId, path }: AddImageParams) {
     const author = await User.findById(userId);
 
     if (!author) {
-      throw new Error("User not found");
+      throw new Error("Usuario no encontrado");
     }
 
     const newImage = await Image.create({
@@ -1853,7 +1766,6 @@ export async function addImage({ image, userId, path }: AddImageParams) {
   }
 }
 
-// UPDATE IMAGE
 export async function updateImage({ image, userId, path }: UpdateImageParams) {
   try {
     await connectToDatabase();
@@ -1861,7 +1773,7 @@ export async function updateImage({ image, userId, path }: UpdateImageParams) {
     const imageToUpdate = await Image.findById(image._id);
 
     if (!imageToUpdate || imageToUpdate.author.toHexString() !== userId) {
-      throw new Error("Unauthorized or image not found");
+      throw new Error("No autorizado o imagen no encontrada");
     }
 
     const updatedImage = await Image.findByIdAndUpdate(
@@ -1878,7 +1790,6 @@ export async function updateImage({ image, userId, path }: UpdateImageParams) {
   }
 }
 
-// DELETE IMAGE
 export async function deleteImage(imageId: string) {
   try {
     await connectToDatabase();
@@ -1891,14 +1802,13 @@ export async function deleteImage(imageId: string) {
   }
 }
 
-// GET IMAGE
 export async function getImageById(imageId: string) {
   try {
     await connectToDatabase();
 
     const image = await populateUser(Image.findById(imageId));
 
-    if(!image) throw new Error("Image not found");
+    if(!image) throw new Error("Imagen no encontrada");
 
     return JSON.parse(JSON.stringify(image));
   } catch (error) {
@@ -1906,7 +1816,6 @@ export async function getImageById(imageId: string) {
   }
 }
 
-// GET IMAGES
 export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
   limit?: number;
   page: number;
@@ -1964,7 +1873,6 @@ export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
   }
 }
 
-// GET IMAGES BY USER
 export async function getUserImages({
   limit = 9,
   page = 1,
@@ -2063,7 +1971,6 @@ const ImageDetails = async ({ params: { id } }: SearchParamProps) => {
 
       <section className="mt-10 border-t border-dark-400/15">
         <div className="transformation-grid">
-          {/* MEDIA UPLOADER */}
           <div className="flex flex-col gap-4">
             <h3 className="h3-bold text-dark-600">Original</h3>
 
@@ -2075,8 +1982,6 @@ const ImageDetails = async ({ params: { id } }: SearchParamProps) => {
               className="transformation-original_image"
             />
           </div>
-
-          {/* TRANSFORMED IMAGE */}
           <TransformedImage
             image={image}
             type={image.transformationType}
@@ -2228,7 +2133,6 @@ export const DeleteConfirmation = ({ imageId }: { imageId: string }) => {
 <summary><code>api/webhooks/stripe/route.ts</code></summary>
 
 ```typescript
-/* eslint-disable camelcase */
 import { createTransaction } from "@/lib/actions/transaction.action";
 import { NextResponse } from "next/server";
 import stripe from "stripe";
@@ -2247,10 +2151,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ message: "Webhook error", error: err });
   }
 
-  // Get the ID and type
   const eventType = event.type;
 
-  // CREATE
   if (eventType === "checkout.session.completed") {
     const { id, amount_total, metadata } = event.data.object;
 
@@ -2298,8 +2200,8 @@ const Credits = async () => {
   return (
     <>
       <Header
-        title="Buy Credits"
-        subtitle="Choose a credit package that suits your needs!"
+        title="Comprar créditos"
+        subtitle="Elige un paquete de crédito que se adapte a tus necesidades!"
       />
 
       <section>
@@ -2394,12 +2296,11 @@ const Checkout = ({
   }, []);
 
   useEffect(() => {
-    // Check to see if this is a redirect back from Checkout
     const query = new URLSearchParams(window.location.search);
     if (query.get("success")) {
       toast({
-        title: "Order placed!",
-        description: "You will receive an email confirmation",
+        title: "Pedido realizado!",
+        description: "Recibirá una confirmación por correo electrónico.",
         duration: 5000,
         className: "success-toast",
       });
@@ -2407,8 +2308,8 @@ const Checkout = ({
 
     if (query.get("canceled")) {
       toast({
-        title: "Order canceled!",
-        description: "Continue to shop around and checkout when you're ready",
+        title: "Orden cancelada!",
+        description: "Continúe comprando y realice el pago cuando esté listo",
         duration: 5000,
         className: "error-toast",
       });
@@ -2517,31 +2418,3 @@ export default Profile;
 ```
 
 </details>
-
-
-## <a name="links">🔗 Links</a>
-
-Public Assets used in the project can be found [here](https://drive.google.com/file/d/1uv1zyCjbYBQE9qnwh2snwO0NBgoop5gz/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js 14 Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
