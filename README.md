@@ -7,7 +7,6 @@
 3. 🔋 [Características](#características)
 4. 🤸 [Inicio Rápido](#inicio-rápido)
 5. 🕸️ [Fragmentos](#fragmentos)
-6. 🔗 [Enlaces](#enlaces)
 
 ## <a name="introducción">🤖 Introducción</a>
 
