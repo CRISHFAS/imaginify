@@ -96,7 +96,7 @@ cd imaginify
 Instala las dependencias del proyecto utilizando `npm`:
 
 ```bash
-npm run dev
+npm install
 ```
 
 ⚙️ **Configuración de Variables de Entorno**
