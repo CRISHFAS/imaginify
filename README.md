@@ -74,7 +74,7 @@ Interfaz intuitiva y adaptable para una experiencia fluida en todos los disposit
 💡 *Y mucho más, incluyendo arquitectura del código y reutilización eficiente de componentes.*
 
 
-## <a name="inicio rápido">🤸 Inicio Rápido</a>
+## <a name="inicio-rápido">🤸 Inicio Rápido</a>
 
 Sigue estos pasos para poner en marcha el proyecto en tu entorno local.
 
