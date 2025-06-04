@@ -6,7 +6,7 @@ import User from "../database/models/user.model";
 import { connectToDatabase } from "../database/mongoose";
 import { handleError } from "../utils";
 
-// CREATE
+// CREAR
 export async function createUser(user: CreateUserParams) {
   try {
     await connectToDatabase();
@@ -19,7 +19,7 @@ export async function createUser(user: CreateUserParams) {
   }
 }
 
-// READ
+// LEER
 export async function getUserById(userId: string) {
   try {
     await connectToDatabase();
@@ -34,7 +34,7 @@ export async function getUserById(userId: string) {
   }
 }
 
-// UPDATE
+// ACTUALIZAR
 export async function updateUser(clerkId: string, user: UpdateUserParams) {
   try {
     await connectToDatabase();
@@ -51,7 +51,7 @@ export async function updateUser(clerkId: string, user: UpdateUserParams) {
   }
 }
 
-// DELETE
+// ELIMINAR
 export async function deleteUser(clerkId: string) {
   try {
     await connectToDatabase();
@@ -63,7 +63,7 @@ export async function deleteUser(clerkId: string) {
       throw new Error("User not found");
     }
 
-    // Delete user
+    // Eliminar usuario
     const deletedUser = await User.findByIdAndDelete(userToDelete._id);
     revalidatePath("/");
 
@@ -73,7 +73,7 @@ export async function deleteUser(clerkId: string) {
   }
 }
 
-// USE CREDITS
+// USAR CREDITOS
 export async function updateCredits(userId: string, creditFee: number) {
   try {
     await connectToDatabase();

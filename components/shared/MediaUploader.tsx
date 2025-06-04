@@ -35,8 +35,8 @@ const MediaUploader = ({
     onValueChange(result?.info?.public_id)
 
     toast({
-      title: 'Image uploaded successfully',
-      description: '1 credit was deducted from your account',
+      title: 'Imagen cargada exitosamente',
+      description: 'Se ha deducido 1 crédito de su cuenta',
       duration: 5000,
       className: 'success-toast' 
     })
@@ -44,8 +44,8 @@ const MediaUploader = ({
 
   const onUploadErrorHandler = () => {
     toast({
-      title: 'Something went wrong while uploading',
-      description: 'Please try again',
+      title: 'Algo salió mal al cargar',
+      description: 'Por favor inténtalo de nuevo',
       duration: 5000,
       className: 'error-toast' 
     })
@@ -91,7 +91,7 @@ const MediaUploader = ({
                   height={24}
                 />
               </div>
-                <p className="p-14-medium">Click here to upload image</p>
+                <p className="p-14-medium">Haga clic aquí para cargar la imagen</p>
             </div>
           )}
         </div>

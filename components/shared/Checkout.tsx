@@ -26,12 +26,11 @@ const Checkout = ({
   }, []);
 
   useEffect(() => {
-    // Check to see if this is a redirect back from Checkout
     const query = new URLSearchParams(window.location.search);
     if (query.get("success")) {
       toast({
-        title: "Order placed!",
-        description: "You will receive an email confirmation",
+        title: "Pedido realizado!",
+        description: "Recibirá una confirmación por correo electrónico.",
         duration: 5000,
         className: "success-toast",
       });
@@ -39,8 +38,8 @@ const Checkout = ({
 
     if (query.get("canceled")) {
       toast({
-        title: "Order canceled!",
-        description: "Continue to shop around and checkout when you're ready",
+        title: "Orden cancelada!",
+        description: "Continúe comprando y realice el pago cuando esté listo",
         duration: 5000,
         className: "error-toast",
       });
@@ -66,7 +65,7 @@ const Checkout = ({
           role="link"
           className="w-full rounded-full bg-purple-gradient bg-cover"
         >
-          Buy Credit
+          Comprar crédito
         </Button>
       </section>
     </form>

@@ -18,8 +18,8 @@ const Credits = async () => {
   return (
     <>
       <Header
-        title="Buy Credits"
-        subtitle="Choose a credit package that suits your needs!"
+        title="Comprar créditos"
+        subtitle="Elige un paquete de crédito que se adapte a tus necesidades!"
       />
 
       <section>
@@ -27,15 +27,14 @@ const Credits = async () => {
           {plans.map((plan) => (
             <li key={plan.name} className="credits-item">
               <div className="flex-center flex-col gap-3">
-                <Image src={plan.icon} alt="check" width={50} height={50} />
+                <Image src={plan.icon} alt="controlar" width={50} height={50} />
                 <p className="p-20-semibold mt-2 text-purple-500">
                   {plan.name}
                 </p>
                 <p className="h1-semibold text-dark-600">${plan.price}</p>
-                <p className="p-16-regular">{plan.credits} Credits</p>
+                <p className="p-16-regular">{plan.credits} Créditos</p>
               </div>
 
-              {/* Inclusions */}
               <ul className="flex flex-col gap-5 py-9">
                 {plan.inclusions.map((inclusion) => (
                   <li
@@ -46,7 +45,7 @@ const Credits = async () => {
                       src={`/assets/icons/${
                         inclusion.isIncluded ? "check.svg" : "cross.svg"
                       }`}
-                      alt="check"
+                      alt="controlar"
                       width={24}
                       height={24}
                     />
@@ -55,9 +54,9 @@ const Credits = async () => {
                 ))}
               </ul>
 
-              {plan.name === "Free" ? (
+              {plan.name === "Gratis" ? (
                 <Button variant="outline" className="credits-btn">
-                  Free Consumable
+                  Consumo Gratis
                 </Button>
               ) : (
                 <SignedIn>
