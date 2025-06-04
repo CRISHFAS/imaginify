@@ -188,7 +188,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
         <CustomField 
           control={form.control}
           name="title"
-          formLabel="Título de la imagen"
+          formLabel="Título de la Imágen"
           className="w-full"
           render={({ field }) => <Input {...field} className="input-field" />}
         />
@@ -197,7 +197,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
           <CustomField
             control={form.control}
             name="aspectRatio"
-            formLabel="Relación de aspecto"
+            formLabel="Relación de Aspecto"
             className="w-full"
             render={({ field }) => (
               <Select
@@ -205,7 +205,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
                 value={field.value}
               >
                 <SelectTrigger className="select-field">
-                  <SelectValue placeholder="Selecciona talla" />
+                  <SelectValue placeholder="Seleccionar talla" />
                 </SelectTrigger>
                 <SelectContent>
                   {Object.keys(aspectRatioOptions).map((key) => (
@@ -225,7 +225,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
               control={form.control}
               name="prompt"
               formLabel={
-                type === 'remove' ? 'Object to remove' : 'Objeto para recolorear'
+                type === 'remove' ? 'Objeto que se va a eliminar' : 'Objeto para volver a colorear'
               }
               className="w-full"
               render={({ field }) => (
@@ -246,7 +246,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
               <CustomField 
                 control={form.control}
                 name="color"
-                formLabel="Reemplazo de Color"
+                formLabel="Color de reemplazo"
                 className="w-full"
                 render={({ field }) => (
                   <Input 
@@ -298,7 +298,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
             disabled={isTransforming || newTransformation === null}
             onClick={onTransformHandler}
           >
-            {isTransforming ? 'Transformando...' : 'Aplicar transformación'}
+            {isTransforming ? 'Transformando...' : 'Aplicar Transformación'}
           </Button>
           <Button 
             type="submit"
